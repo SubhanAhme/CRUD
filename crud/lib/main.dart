@@ -1,4 +1,5 @@
 import 'package:crud/views/contact.dart';
+import 'package:crud/views/groups.dart';
 import 'package:crud/views/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: Contacts(),
      
       
     );

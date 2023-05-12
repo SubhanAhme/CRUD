@@ -173,7 +173,6 @@ class _ContactsState extends State<Contacts> {
             
 
       ),
-      
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           showDialog(
